@@ -1695,7 +1695,9 @@ Service Area Style
 .single-services:hover p {
   color: var(--white-color);
 }
-
+.single-services:hover ul {
+  color: var(--white-color);
+}
 .single-services:hover .read-more {
   color: var(--white-color);
 }
