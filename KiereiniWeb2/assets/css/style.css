@@ -54,7 +54,7 @@ Default Style
 :root {
   --body-family: 'Open Sans', sans-serif;
   --heading-family: 'Roboto', sans-serif;
-  --main-color: #ff5e14;
+  --main-color: #35C6F3;
   --body-color: #555555;
   --heading-color: #040f28;
   --white-color: #ffffff;
@@ -1090,11 +1090,11 @@ Hero Slider Area Style
 }
 
 .hero-slider-item.bg-3 {
-  background-image: url(../../assets/img/hero-slider-img/hero-slider-img-3.jpg);
+  background-image: url(../../assets/img/new-bg/bg-1.jpg);
 }
 
 .hero-slider-item.bg-4 {
-  background-image: url(../../assets/img/hero-slider-img/hero-slider-img-4.jpg);
+  background-image: url(../../assets/img/new-bg/bg-2.jpg);
 }
 
 .hero-slider-item::before {
@@ -1359,13 +1359,13 @@ Hero Slider Area Style
 }
 
 .banner-area .banner-content .video-btn {
-  background-color: rgba(101, 48, 34, 0.9);
+  background-color: rgba(53, 198, 243, 0.9);
 }
 
 .banner-area .banner-content .video-btn::before, .banner-area .banner-content .video-btn::after {
   -webkit-animation: ripple 1.6s ease-out infinite;
           animation: ripple 1.6s ease-out infinite;
-  background-color: rgba(101, 48, 34, 0.9);
+  background-color: rgba(53, 198, 243,  0.9);
 }
 
 /*
@@ -1555,7 +1555,7 @@ Feathers Area Style
   width: 100%;
   height: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffdfd0), to(#ffffff));
-  background-image: linear-gradient(#ffdfd0, #ffffff);
+  background-image: linear-gradient(#ffffff, #ffffff);
   z-index: -1;
   border-radius: 50%;
 }
@@ -1755,8 +1755,8 @@ Service Area Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffdfd0), to(#ffffff));
-  background-image: linear-gradient(#ffdfd0, #ffffff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7edefc), to(#ffffff));
+  background-image: linear-gradient(#7edefc, #ffffff);
   z-index: -1;
   border-radius: 50px;
   -webkit-transition: var(--transition);
@@ -1772,8 +1772,8 @@ Service Area Style
 }
 
 .services-area-style-two .single-services:hover i::after {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7e43), to(#ff5e14));
-  background-image: linear-gradient(#ff7e43, #ff5e14);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7edefc), to(#ffffff));
+  background-image: linear-gradient(#7edefc, #ffffff);
 }
 
 .services-area-style-three .single-services {
@@ -3354,7 +3354,7 @@ Projects Area Style
 }
 
 .projects.bg-1 {
-  background-image: url(../../assets/img/projects-img/projects-img-1.jpg);
+  background-image: url(../../assets/img/projects-img/proj-5.jpg);
   height: 100%;
   position: relative;
 }
@@ -3370,22 +3370,22 @@ Projects Area Style
 }
 
 .projects.bg-2 {
-  background-image: url(../../assets/img/projects-img/projects-img-2.jpg);
+  background-image: url(../../assets/img/projects-img/proj-1.jpg);
   height: 250px;
 }
 
 .projects.bg-3 {
-  background-image: url(../../assets/img/projects-img/projects-img-3.jpg);
+  background-image: url(../../assets/img/projects-img/proj-2.jpg);
   height: 250px;
 }
 
 .projects.bg-4 {
-  background-image: url(../../assets/img/projects-img/projects-img-4.jpg);
+  background-image: url(../../assets/img/projects-img/proj-3.jpg);
   height: 250px;
 }
 
 .projects.bg-5 {
-  background-image: url(../../assets/img/projects-img/projects-img-5.jpg);
+  background-image: url(../../assets/img/projects-img/proj-6.jpeg);
   height: 250px;
 }
 
@@ -6670,7 +6670,7 @@ Video wave Style*/
   position: relative;
   top: 3px;
   z-index: 1;
-  background-color: rgba(255, 94, 20, 0.9);
+  background-color: rgba(53, 198, 243, 0.9);
   border-radius: 50%;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -6710,11 +6710,11 @@ Video wave Style*/
   transition: var(--transition);
   -webkit-animation: ripple 1.6s ease-out infinite;
           animation: ripple 1.6s ease-out infinite;
-  background-color: rgba(255, 94, 20, 0.9);
+  background-color: rgba(53, 198, 243, 0.9);
 }
 
 .video-btn:hover::before, .video-btn:hover::after {
-  background-color: rgba(255, 94, 20, 0.9);
+  background-color: rgba(53, 198, 243, 0.9);
 }
 
 @-webkit-keyframes ripple {
