@@ -54,7 +54,7 @@ Default Style
 :root {
   --body-family: 'Open Sans', sans-serif;
   --heading-family: 'Roboto', sans-serif;
-  --main-color: #ff5e14;
+  --main-color: #35c6f3;
   --body-color: #555555;
   --heading-color: #040f28;
   --white-color: #ffffff;
@@ -329,7 +329,7 @@ Top Header Area Style
 }
 
 .top-header {
-  background-color: var(--heading-color);
+  background-color: var(--white-color);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -348,14 +348,14 @@ Top Header Area Style
 }
 
 .top-header .header-left-content li i {
-  color: var(--white-color);
+  color: var(--main-color);
   display: inline-block;
   margin-right: 10px;
   font-size: 15px;
 }
 
 .top-header .header-left-content li a {
-  color: var(--white-color);
+  color: var(--main-color);
   font-size: 15px;
 }
 
@@ -383,7 +383,7 @@ Top Header Area Style
 }
 
 .top-header .header-right-content li a i {
-  color: var(--white-color);
+  color: var(--main-color);
   display: inline-block;
   font-size: 18px;
   -webkit-transition: var(--transition);
@@ -1090,11 +1090,11 @@ Hero Slider Area Style
 }
 
 .hero-slider-item.bg-3 {
-  background-image: url(../../assets/img/hero-slider-img/hero-slider-img-3.jpg);
+  background-image: url(../../assets/img/new-bg/bg-3.jpg);
 }
 
 .hero-slider-item.bg-4 {
-  background-image: url(../../assets/img/hero-slider-img/hero-slider-img-4.jpg);
+  background-image: url(https://simonielmusyoki.github.io/Portfolios/KiereiniWeb1/assets/img/img-3.jpg);
 }
 
 .hero-slider-item::before {
@@ -1744,7 +1744,7 @@ Service Area Style
   width: 100%;
   height: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ffdfd0), to(#ffffff));
-  background-image: linear-gradient(#ffdfd0, #ffffff);
+  background-image: linear-gradient(rgb(143 250 255), rgb(255, 255, 255));
   z-index: -1;
   border-radius: 50px;
   -webkit-transition: var(--transition);
@@ -1761,7 +1761,7 @@ Service Area Style
 
 .services-area-style-two .single-services:hover i::after {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7e43), to(#ff5e14));
-  background-image: linear-gradient(#ff7e43, #ff5e14);
+  background-image: linear-gradient(rgb(143 250 255), rgb(255, 255, 255))''
 }
 
 .services-area-style-three .single-services {
