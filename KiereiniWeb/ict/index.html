@@ -1,23 +1,5 @@
 <html lang="zxx">
   <head>
-    <!-- Google Tag Manager -->
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtm.js?id=GTM-TAGCODE"
-    ></script>
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-TAGCODE");
-    </script>
-    <!-- End Google Tag Manager -->
     <title>ENGARUKA SOLUTIONS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
@@ -25,40 +7,48 @@
     <link
       type="text/css"
       rel="stylesheet"
-      href="assets/css/bootstrap.min.css"
+      href="./assets/css/bootstrap.min.css"
     />
     <link
       type="text/css"
       rel="stylesheet"
-      href="assets/css/magnific-popup.css"
+      href="./assets/css/magnific-popup.css"
     />
     <link
       type="text/css"
       rel="stylesheet"
-      href="assets/css/jquery.selectBox.css"
-    />
-    <link type="text/css" rel="stylesheet" href="assets/css/rangeslider.css" />
-    <link type="text/css" rel="stylesheet" href="assets/css/animate.min.css" />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="assets/css/jquery.mCustomScrollbar.css"
+      href="./assets/css/jquery.selectBox.css"
     />
     <link
       type="text/css"
       rel="stylesheet"
-      href="assets/fonts/font-awesome/css/font-awesome.min.css"
+      href="./assets/css/rangeslider.css"
     />
     <link
       type="text/css"
       rel="stylesheet"
-      href="assets/fonts/flaticon/font/flaticon.css"
+      href="./assets/css/animate.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/css/jquery.mCustomScrollbar.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./assets/fonts/flaticon/font/flaticon.css"
     />
 
     <!-- Favicon icon -->
     <link
       rel="shortcut icon"
-      href="assets/img/favicon.ico"
+      href="./assets/img/favicon.ico"
       type="image/x-icon"
     />
 
@@ -73,36 +63,15 @@
     />
 
     <!-- Custom Stylesheet -->
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       type="text/css"
       id="style_sheet"
-      href="assets/css/skins/blue-light.css"
+      href="./assets/css/skins/blue-light.css"
     />
-
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="https://maps.googleapis.com/maps-api-v3/api/js/52/2/common.js"
-    ></script>
-    <script
-      type="text/javascript"
-      charset="UTF-8"
-      src="https://maps.googleapis.com/maps-api-v3/api/js/52/2/util.js"
-    ></script>
   </head>
   <body id="top">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-TAGCODE"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div class="page_loader" style="display: none"></div>
 
     <!-- main header start -->
@@ -114,10 +83,7 @@
         <div class="row">
           <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light rounded">
-              <a
-                class="navbar-brand logo navbar-brand d-flex mr-auto"
-                href="index.html"
-              >
+              <a class="navbar-brand logo navbar-brand d-flex mr-auto" href="/">
                 <img src="assets/img/logos/black-logo.png" alt="logo" />
               </a>
               <button
@@ -137,10 +103,7 @@
                     <a class="nav-link single" href="#top">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link single" href="#features">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link single" href="#trem">Our Team</a>
+                    <a class="nav-link single" href="#solutions">Services</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link single" href="#pricing">Why Us</a>
@@ -184,7 +147,9 @@
                     ></span>
                   </h1>
                   <p>DIGITAL SOLUTIONS FOR YOU.</p>
-                  <a href="#" class="btn-md button-theme">Learn More</a>
+                  <a href="#solutions" class="btn-md button-theme"
+                    >Learn More</a
+                  >
                 </div>
               </div>
             </div>
@@ -195,7 +160,7 @@
     <!-- banner end -->
 
     <!-- Features section start -->
-    <div class="features-section content-area">
+    <div class="features-section content-area" id="solutions">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-6">
@@ -290,7 +255,11 @@
     <!-- Features section -->
 
     <!-- Services start -->
-    <div class="services content-area-2 bg-grea" id="features">
+    <div
+      class="services content-area-2 bg-grea"
+      id="features"
+      style="display: none"
+    >
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -352,7 +321,7 @@
     <!-- Services end -->
 
     <!-- Services start -->
-    <div class="services content-area-3">
+    <div class="services content-area-3" style="display: none">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 align-self-center">
@@ -420,7 +389,11 @@
     </div>
     <!-- Services end -->
     <!-- Services start -->
-    <div class="services content-area-2 bg-grea" id="features">
+    <div
+      class="services content-area-2 bg-grea"
+      id="features"
+      style="display: none"
+    >
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -480,7 +453,7 @@
     <!-- Services end -->
 
     <!-- Services start -->
-    <div class="services content-area-3">
+    <div class="services content-area-3" style="display: none">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 align-self-center">
@@ -523,7 +496,11 @@
     </div>
     <!-- Services end -->
     <!-- Services start -->
-    <div class="services content-area-2 bg-grea" id="features">
+    <div
+      class="services content-area-2 bg-grea"
+      id="features"
+      style="display: none"
+    >
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -578,7 +555,7 @@
     <!-- Services end -->
 
     <!-- Services start -->
-    <div class="services content-area-3">
+    <div class="services content-area-3" style="display: none">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 align-self-center">
@@ -631,7 +608,7 @@
     <!-- Services end -->
 
     <!-- Counters strat -->
-    <div class="counters">
+    <div class="counters" style="display: none">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6">
@@ -684,7 +661,7 @@
     <!-- Counters end -->
 
     <!-- Our team start -->
-    <div class="our-team content-area" id="trem">
+    <div class="our-team content-area" id="trem" style="display: none">
       <div class="container">
         <!-- Main title -->
         <div class="main-title text-center">
